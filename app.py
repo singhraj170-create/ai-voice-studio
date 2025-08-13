@@ -18,7 +18,7 @@ st.markdown("Convert text to speech, speech to text, and even clone voices!")
 # Sidebar Settings
 # ------------------------------
 st.sidebar.header("🔑 API Settings")
-hf_api_key = st.sidebar.text_input("Hugging Face API Key", type="password")
+st.sidebar.text_input("Hugging Face API Key", type="password")
 elevenlabs_api_key = st.sidebar.text_input("ElevenLabs API Key (Optional)", type="password")
 
 # ------------------------------
